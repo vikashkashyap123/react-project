@@ -8,7 +8,18 @@ function App() {
   const addValue =()=>
 {
   // counter = counter +1
-  if(counter<20)
+  // counter = counter +1
+  // counter = counter +1
+  // counter = counter +1
+  // this line 10-13 will increase the value by one only
+
+  // setCounter(prevcounter => prevcounter + 1)
+  // setCounter(prevcounter => prevcounter + 1)
+  // setCounter(prevcounter => prevcounter + 1)
+  // setCounter(prevcounter => prevcounter + 1)
+  //this line 16-19 will incr the value with plus 4
+
+  if(counter<30)
   setCounter(counter+1)
 } 
 const removeValue =()=>{
